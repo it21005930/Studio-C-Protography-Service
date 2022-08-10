@@ -1,0 +1,84 @@
+
+.tb1,th,td{
+	padding:10px;
+	border-collapse:collapse;
+	background-color:rgba(0, 167, 225, 0.9);
+	border-radius:10px;
+}
+.acci{
+	border-radius:50%;
+}
+.btn1{
+	float:right;
+	padding: 10px;
+	margin: 2px;
+	font-family: system-ui;
+	border-radius: 12px;
+	background-color: #5762D5;
+	border: 2px double black;
+	width:90px;
+	
+	
+}
+.form1{
+	width:450px;
+	margin:auto;
+	padding:20px;
+	background-color: rgba(133,200,255, 0.9);
+	font-size:14px;
+	font-family:verdana;
+	color:white;
+	min-height:460px;
+	
+}
+.new1{
+	border-radius:8px;
+}
+.sub1{
+	float:right;
+	right:0px;
+	padding: 10px;
+	margin: 2px;
+	font-family: system-ui;
+	border-radius: 8px;
+	background-color: #5762D5;
+	border: 2px double black;
+	width:100px;
+	
+	
+}
+
+.sub1:hover {
+	background-color: #D1E3DD;
+}
+
+.sub1:active {
+	background-color: white;
+}
+	
+
+.btn1:hover {
+	background-color: #D1E3DD;
+}
+
+.btn1:active {
+	background-color: white;
+}
+
+.new1 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color:GrayText;
+}
+
+
+container2 {
+  display: flex;
+  align-items: center;
+  justify-content: rgba(133,200,255, 0.9);
+  background-color: rgba(133,200,255, 0.9);
+  border: 2px solid red;
+  border-radius: 12px;
+}

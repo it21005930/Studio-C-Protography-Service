@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+  body{
+    background-image: url("Back.jpg");
+    background-size: cover;
+    }
+  form {
+    background-color: #000000;
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    border-radius: 15px;
+  }
+  h1 {
+     color: #3a3a3a;
+  }
+</style> 
+</head>
+<body>
+    <div class="container">
+        <h1>Confirm Your Payment</h1>
+        <div class="first-row">
+            <div class="owner">
+                <h3>Owner</h3>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="password">
+                </div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="card-number">
+                <h3>Card Number</h3>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <div class="third-row">
+            <h3>EX Date</h3>
+            <div class="selection">
+                <div class="date">
+                    <input type="text" placeholder="MM">
+		            <input type="text" placeholder="YY">
+                </div>
+		<div class="cards">
+                    <img src="mc.png" alt="">
+                    <img src="vi.png" alt="">
+                    <img src="pp.png" alt="">
+                </div>   
+            </div> 
+        </div>
+       <a href="../Dinushka/home.php">Confirm</a>
+    </div>
+</body>
+</html>
